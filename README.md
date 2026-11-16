@@ -5,13 +5,11 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://img.shields.io/badge/build-passing-brightgreen)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://img.shields.io/badge/license-MIT-blue)
 
-![Demo](assets/demo.png)
 
 ## 🛠️ Tecnologías
 
 - **Lenguaje:** [ HTML / CSS ]
-- **Framework:** [Ej: React / Flask / None]
-- **Herramientas:** [Ej: Git, VS Code]
+- **Herramientas:** [Git, VS Code]
 
 ## 🚀 Instalación
 
