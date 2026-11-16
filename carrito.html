@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cesta · La Trastienda</title>
+    <link rel="stylesheet" href="css/estilos.css">    
+</head>
+<body>
+    <div class="app-container">
+
+        <header>
+        <a href="index.html">La Trastienda</a>
+        <button type="button" aria-label="Buscar">🔍</button>
+        <button type="button" aria-label="Abrir menú">☰</button>
+        </header>
+
+        <main>
+        <h1>Mi cesta · 2 artículos</h1>
+
+        <!-- LISTA DE ARTÍCULOS -->
+        <section aria-label="Artículos en tu cesta">
+            
+            <article class="card">
+            <img src="img/portada-paciente.jpg" alt="Portada de La paciente silenciosa" width="80" height="115">
+            <h2><a href="detalle.html">La paciente silenciosa</a></h2>
+            <p>Alex Michaelides · Tapa dura</p>
+            <div>
+                <button type="button" aria-label="Restar una unidad de La paciente silenciosa">−</button>
+                <span>1</span>
+                <button type="button" aria-label="Sumar una unidad de La paciente silenciosa">+</button>
+            </div>
+            <p>19,90 €</p>
+            </article>
+
+            <article class="card">
+            <img src="img/portada-ciudad-blanca.jpg" alt="Portada de El silencio de la ciudad blanca" width="80" height="115">
+            <h2><a href="detalle.html">El silencio de la ciudad blanca</a></h2>
+            <p>Eva García Sáenz de Urturi · Ebook</p>
+            <div>
+                <button type="button" aria-label="Restar una unidad de El silencio de la ciudad blanca">−</button>
+                <span>1</span>
+                <button type="button" aria-label="Sumar una unidad de El silencio de la ciudad blanca">+</button>
+            </div>
+            <p>9,99 €</p>
+            </article>
+
+        </section>
+
+        <!-- RESUMEN -->
+        <section class="card" aria-labelledby="titulo-resumen">
+            <h2 id="titulo-resumen">Resumen</h2>
+            <dl>
+            <dt>Subtotal</dt>
+            <dd>29,89 €</dd>
+
+            <dt>Envío</dt>
+            <dd>Gratis</dd>
+
+            <dt><strong>Total</strong></dt>
+            <dd><strong>29,89 €</strong></dd>
+            </dl>
+            <a href="checkout.html" class="btn-accion">Tramitar pedido</a>
+        </section>
+        </main>
+
+        <nav aria-label="Secciones de la app">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="explorar.html">Explorar</a></li>
+            <li><a href="carrito.html" aria-current="page">Cesta</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+        </ul>
+        </nav>
+
+    </div>
+</body>
+</html>
